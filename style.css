@@ -1,15 +1,15 @@
 body{
     margin: 0 auto;
     width: 100vw;
+    text-align: center;
+    padding: 25em 0px;
 }
 
 div{
     margin: 0 auto;
     width: 250px;
     height: 250px;
-    margin-top: 7em;
     padding: 0 auto;
-    margin-right: 50%;
 }
 
 @keyframes mover {
@@ -19,6 +19,7 @@ div{
     }
     50%{
         transform: translateY(50px);
+
         
     }
     100%{
@@ -31,12 +32,14 @@ div{
 img{
     margin: 0 auto;
     padding: 0 auto;
+    max-width: 250px;
 }
 
 .perro {
   animation: mover 0.4s ease-in-out infinite;
+  margin-top: -3em;
 }
 
 .trampolin{
-    margin-top: -45vh;
+    margin-top: -9em;
 }
