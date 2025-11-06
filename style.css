@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+div{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    color: whitesmoke;
+    margin-top: 5em;
+    padding: 0 auto;
+    margin-right: 50%;
+}
+
+@keyframes mover {
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+        
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+
+}
+
+img{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.perro {
+  animation: mover 0.4s ease-in-out infinite;
+}
+
+.trampolin{
+    margin-top: -30vh;
+}
