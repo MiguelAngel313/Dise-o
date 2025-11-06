@@ -6,8 +6,10 @@ body{
 }
 
 div{
+    margin: 0 auto;
     width: 250px;
     height: 250px;
+    padding: 0 auto;
 }
 
 @keyframes mover {
